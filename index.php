@@ -15,6 +15,8 @@
 
 		/* CSS class. Classes can be resused on multiple elements. */
 		.box {
+			border: 5px solid pink;
+			margin: 10px;
 			text-align: center;
 			height: 90px;
 			width: 90px;
