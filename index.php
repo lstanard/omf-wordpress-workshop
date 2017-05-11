@@ -39,21 +39,29 @@
 	</div>
 
 	<div class="section">
-		<h2>Examples</h2>
+		<h2>CSS and HTML Examples</h2>
+
 		<div class="box" id="box1">
 			Box 1
 		</div>
+
 		<div class="box" id="box2">
 			Box 2
 		</div>
+
 	</div>
 
-	<div>
-		<h2>Exercise 1</h2>
-	</div>
+	<div class="section">
+		<h2>PHP Examples</h2>
 
-	<div>
-		<h2>Exercise 2</h2>
+		<!-- $name is what's called a PHP "variable" - a placeholder to be filled in later. -->
+		<?php $name = "Charlie"; ?>
+		<p>Hello! My name is <?php echo $name; ?></p>
+
+		<!-- $sum is also a variable - we're giving it the value of 2 + 2, which PHP will add for us. -->
+		<?php $sum = 2 + 2; ?>
+		<p>What is the sum of 2 + 2? It's <?php echo $sum; ?></p>
+
 	</div>
 
 </body>
